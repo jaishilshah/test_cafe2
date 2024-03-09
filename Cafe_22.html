@@ -38,11 +38,11 @@
     <img src="./Menu2.jpg" alt="Page 2 Image">
 </div>
 <script>
-        // Refresh the page every 3 minutes (180,000 milliseconds)
-        setInterval(function() {
+        function refreshPage() {
             console.log("Page refreshed at: " + new Date().toLocaleString());
             location.reload();
-        }, 180000); // 3 minutes
-</script>
+        }
+        setInterval(refreshPage, 180000); // 3 minutes
+    </script>
 </body>
 </html>
