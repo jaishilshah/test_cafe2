@@ -40,6 +40,7 @@
 <script>
         // Refresh the page every 3 minutes (180,000 milliseconds)
         setInterval(function() {
+            console.log("Page refreshed at: " + new Date().toLocaleString());
             location.reload();
         }, 180000); // 3 minutes
 </script>
