@@ -39,10 +39,11 @@
 </div>
 <script>
         function refreshPage() {
-            console.log("Page refreshed at: " + new Date().toLocaleString());
+          //  console.log("Page refreshed at: " + new Date().toLocaleString());/
             location.reload();
         }
         setInterval(refreshPage, 180000); // 3 minutes
+        console.log("Page refreshed at: " + new Date().toLocaleString());
     </script>
 </body>
 </html>
